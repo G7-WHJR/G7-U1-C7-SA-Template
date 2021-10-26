@@ -9,7 +9,7 @@ function setup() {
   box.shapeColor = ; 
   
   //3. Set velocity of sprite for vertical movement
-  box.velocityY=0.5;
+  box.velocityY=;
 }
 function draw() {
   background("orange");
