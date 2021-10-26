@@ -3,13 +3,13 @@ function setup() {
   createCanvas(400, 400);
   
   //1. Set width, height, x and y position in "createSprite()"
-  box = createSprite(, , ,);
+  box = createSprite(, , , );
   
   //2. Set sprite color to "white"
-  box.shapeColor = ;
+  box.shapeColor = ; 
   
   //3. Set velocity of sprite for vertical movement
-  box.setVelocity(,);
+  box.velocityY=0.5;
 }
 function draw() {
   background("orange");
